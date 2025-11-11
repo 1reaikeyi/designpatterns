@@ -2,7 +2,7 @@ import 开闭原则.Daily;
 import 开闭原则.HighStu;
 import 开闭原则.Stu;
 import org.junit.Test;
-public class Main {
+public class MainOpen_Close {
     @Test
     public void test1() {
         //向上转型
