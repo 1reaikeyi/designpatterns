@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>principles</module>
-        <module>pattern</module>
+        <module>patterns</module>
     </modules>
 
     <properties>
