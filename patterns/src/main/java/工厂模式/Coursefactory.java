@@ -1,5 +1,5 @@
 package 工厂模式;
 
 public abstract class Coursefactory {
-    public abstract Course create();
+    public abstract Course get();
 }
