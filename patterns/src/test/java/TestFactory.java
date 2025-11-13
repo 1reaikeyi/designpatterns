@@ -1,6 +1,6 @@
 import 工厂模式.*;
 
-public class Test {
+public class TestFactory {
     @org.junit.Test
     public void test1() {
         Coursefactory chinesefactory = new Chinesefactory();
@@ -14,4 +14,5 @@ public class Test {
 
 
     }
+
 }
