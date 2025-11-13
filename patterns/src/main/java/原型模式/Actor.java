@@ -7,6 +7,7 @@ public class Actor {
     public Actor(){
         i++;
         System.out.println("第" + i + "次对象创建");
+
     }
 
     public String getName() {
@@ -23,5 +24,10 @@ public class Actor {
 
     public void setHobby(String hobby) {
         this.hobby = hobby;
+    }
+
+    @Override
+    public Actor clone() throws CloneNotSupportedException {
+        return (Actor) super.clone();
     }
 }
