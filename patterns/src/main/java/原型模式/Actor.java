@@ -1,6 +1,6 @@
 package 原型模式;
 
-public class Actor {
+public class Actor implements Cloneable{
     private String name;
     private String hobby;
     public static int i = 0;

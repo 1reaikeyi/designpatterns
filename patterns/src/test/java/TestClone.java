@@ -22,15 +22,19 @@ public class TestClone {
         Actor actor1 = new Actor();
         actor1.setName("熊大");
         actor1.setHobby(" 打游戏");
+        System.out.println(actor1.getName()+"\t"+actor1.getHobby());
         System.out.println("actor1 = " + actor1);
 
             Actor actor2 = actor1.clone();
             actor2.setName("熊二");
             actor2.setHobby(" 打游戏");
+        System.out.println(actor2.getName()+"\t"+actor2.getHobby());
             System.out.println("actor2 = " + actor2);
-            Actor actor3 = actor1.clone();
+//            Actor actor3 = actor1.clone();
+            Actor actor3 = actor2.clone();
             actor3.setName("熊三");
             actor3.setHobby(" 打游戏");
+        System.out.println(actor3.getName()+"\t"+actor3.getHobby());
             System.out.println("actor3 = " + actor3);
 
 
