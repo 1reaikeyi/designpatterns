@@ -1,4 +1,4 @@
-package 开闭原则;
+package 合成复用原则;
 
 public class bStu implements aDaily {
     @Override
