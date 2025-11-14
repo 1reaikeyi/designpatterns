@@ -1,6 +1,6 @@
 package 开闭原则;
 
-public class HighStu extends Stu {
+public class HighStu extends bStu {
     @Override
     public void work() {
         System.out.println("高中生写作业");

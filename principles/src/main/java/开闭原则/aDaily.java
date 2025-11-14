@@ -1,6 +1,6 @@
 package 开闭原则;
 
-public interface Daily {
+public interface aDaily {
     void eat();
     void classing();
 }

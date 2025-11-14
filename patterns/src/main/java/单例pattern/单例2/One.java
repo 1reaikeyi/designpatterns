@@ -1,4 +1,4 @@
-package oneObject.单例2;
+package 单例pattern.单例2;
 
 public class One {
     private One() {

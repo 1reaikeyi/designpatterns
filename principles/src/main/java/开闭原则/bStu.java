@@ -1,6 +1,6 @@
 package 开闭原则;
 
-public class Stu implements Daily{
+public class bStu implements aDaily {
     @Override
     public void eat() {
         System.out.println("在食堂");
