@@ -3,7 +3,7 @@ import 依赖倒置原则.Computer;
 import 依赖倒置原则.aCPU;
 import 依赖倒置原则.aScreen;
 
-public class Test3 {
+public class Test依赖倒置原则 {
     @Test
     public void test() {
         aCPU cpu = new aCPU();

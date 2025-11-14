@@ -1,7 +1,7 @@
 import org.junit.Test;
 import 接口隔离原则.Secrity;
 
-public class Test4 {
+public class Test接口隔离原则 {
     @Test
     public void test() {
         Secrity s = new Secrity();

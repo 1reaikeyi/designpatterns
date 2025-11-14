@@ -2,7 +2,7 @@ import org.junit.Test;
 import 里氏替换原则.bRectangle;
 import 里氏替换原则.bSquare;
 
-public class Test2 {
+public class Test里氏替换原则 {
     @Test
     public void test() {
        bRectangle bRectangle = new bRectangle();
