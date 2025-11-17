@@ -1,4 +1,4 @@
-import 单例pattern.单例.One;
+import 单例pattern.before.One;
 
 public class TestOne {
     @org.junit.Test

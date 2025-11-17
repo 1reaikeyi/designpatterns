@@ -1,4 +1,4 @@
-package 单例pattern.单例;
+package 单例pattern.before;
 
 public class One {
     private One() {
