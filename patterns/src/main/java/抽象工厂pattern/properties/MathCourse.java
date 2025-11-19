@@ -1,6 +1,4 @@
-package 抽象工厂pattern;
-
-import 抽象工厂pattern.properties.Course;
+package 抽象工厂pattern.properties;
 
 public class MathCourse extends Course {
     @Override

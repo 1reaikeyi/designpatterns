@@ -1,6 +1,4 @@
-package 抽象工厂pattern;
-
-import 抽象工厂pattern.properties.Material;
+package 抽象工厂pattern.properties;
 
 public class MathMaterial extends Material {
     @Override

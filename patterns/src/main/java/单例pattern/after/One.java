@@ -6,7 +6,7 @@ public class One {
     }
     // 初始化静态变量 me
     private static One me;
-    public static One get() {
+    public static synchronized One get() {
         if (me == null) {
             me = new One();
         }

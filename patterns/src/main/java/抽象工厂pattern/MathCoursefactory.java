@@ -1,8 +1,6 @@
 package 抽象工厂pattern;
 
-import 抽象工厂pattern.properties.Course;
-import 抽象工厂pattern.properties.Exam;
-import 抽象工厂pattern.properties.Material;
+import 抽象工厂pattern.properties.*;
 
 public class MathCoursefactory extends Coursefactory{
     @Override
