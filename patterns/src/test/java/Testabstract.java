@@ -1,8 +1,9 @@
 
-import 抽象工厂pattern.*;
-import 抽象工厂pattern.properties.Course;
-import 抽象工厂pattern.properties.Exam;
-import 抽象工厂pattern.properties.Material;
+import 创建型.抽象工厂pattern.Coursefactory;
+import 创建型.抽象工厂pattern.MathCoursefactory;
+import 创建型.抽象工厂pattern.properties.Course;
+import 创建型.抽象工厂pattern.properties.Exam;
+import 创建型.抽象工厂pattern.properties.Material;
 
 public class Testabstract {
     @org.junit.Test

@@ -1,5 +1,9 @@
-import 工厂模式.*;
-import 工厂模式.add.Englishfactory;
+import 创建型.工厂模式.Chinesefactory;
+import 创建型.工厂模式.Course;
+import 创建型.工厂模式.Coursefactory;
+import 创建型.工厂模式.Mathfactory;
+
+import 创建型.工厂模式.add.Englishfactory;
 
 public class TestFactory {
     @org.junit.Test

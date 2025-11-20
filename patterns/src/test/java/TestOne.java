@@ -1,6 +1,6 @@
 import org.junit.Test;
-import 单例pattern.Singleton;
-import 单例pattern.before.One;
+import 创建型.单例pattern.Singleton;
+import 创建型.单例pattern.before.One;
 
 public class TestOne {
     @org.junit.Test

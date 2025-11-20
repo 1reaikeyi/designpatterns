@@ -1,8 +1,8 @@
 import org.junit.Test;
-import 建造者模式.Build;
-import 建造者模式.BuildFactory;
-import 建造者模式.Car;
-import 建造者模式.Enginer;
+import 创建型.建造者模式.Build;
+import 创建型.建造者模式.BuildFactory;
+import 创建型.建造者模式.Car;
+import 创建型.建造者模式.Enginer;
 
 public class Testbuild {
     @Test
