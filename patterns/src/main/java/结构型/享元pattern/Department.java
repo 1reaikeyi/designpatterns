@@ -3,12 +3,16 @@ package 结构型.享元pattern;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
+
 @NoArgsConstructor
-@AllArgsConstructor
-public class Department implements Emoplory {
+public class Department {
     private String name;
-    @Override
-    public void factory() {
-        System.out.println("这里的部门是：" + name);
+    public static int i = 0;
+
+    public Department(String name) {
+        this.name = name;
+        i +=1;
+        System.out.println("第" + i + "次创建部门");
     }
+
 }

@@ -12,7 +12,6 @@ public class Flyweight {
         // 应该复用
         for (String departmentName : departments) {
             Department department = factory.getDepartment(departmentName);
-            department.factory();
         }
 
         // 打印当前缓存的部门数量
