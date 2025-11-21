@@ -1,3 +1,5 @@
+package Creation;
+
 import org.junit.Test;
 import 创建型.原型模式.Actor;
 import 创建型.原型模式.ActorDeep;

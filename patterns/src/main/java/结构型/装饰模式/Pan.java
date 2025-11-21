@@ -1,19 +1,13 @@
 package 结构型.装饰模式;
 
-public abstract class Pan extends Food {
-    private Food food;
-    public Pan() {
-
-    }
-    public Pan(Food food) {
-        this.food = food;
-    }
+public class Pan extends Food{
     @Override
     public String name() {
-        return "煎饼";
+        return "煎饼"; // 基础名称
     }
+
     @Override
     public int price() {
-        return 5;
+        return 5; // 基础价格
     }
 }

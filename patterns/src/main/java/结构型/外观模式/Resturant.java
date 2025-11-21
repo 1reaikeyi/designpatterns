@@ -7,7 +7,7 @@ public class Resturant {
         order = new Order();
         pay = new Pay();
     }
-   public void buy(Food food){
+   public void buy(Eat food){
        System.out.println("购买-----"+food.getName());
        order.order();
        pay.pay();

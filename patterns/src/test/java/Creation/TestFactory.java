@@ -1,3 +1,5 @@
+package Creation;
+
 import org.junit.Test;
 import 创建型.单例pattern.Singleton;
 import 创建型.单例pattern.before.One;
