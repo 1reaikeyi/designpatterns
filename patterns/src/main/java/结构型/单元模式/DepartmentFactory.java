@@ -1,8 +1,7 @@
-package 结构型.享元pattern;
+package 结构型.单元模式;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 
 // 享元工厂 - 管理部门对象的创建和共享
 public class DepartmentFactory {

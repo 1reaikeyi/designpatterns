@@ -1,7 +1,7 @@
 package structual;
 
-import 结构型.享元pattern.Department;
-import 结构型.享元pattern.DepartmentFactory;
+import 结构型.单元模式.Department;
+import 结构型.单元模式.DepartmentFactory;
 
 // 客户端类
 public class Flyweight {

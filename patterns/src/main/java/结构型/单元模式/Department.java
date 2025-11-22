@@ -1,6 +1,5 @@
-package 结构型.享元pattern;
+package 结构型.单元模式;
 
-import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 
