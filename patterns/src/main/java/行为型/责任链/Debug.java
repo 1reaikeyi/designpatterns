@@ -1,6 +1,6 @@
 package 行为型.责任链;
 
-public class Debug  extends FileLodder {
+public class Debug  extends FileLogger {
     public Debug(int level) {
         this.level = level;
     }

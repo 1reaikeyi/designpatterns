@@ -1,6 +1,6 @@
 package 行为型.责任链;
 
-public class Warn extends FileLodder {
+public class Warn extends FileLogger {
     public Warn(int level){
         this.level = level;
     }
