@@ -7,10 +7,15 @@ import 行为型.解释器.*;
 public class Interprete {
     @Test
     public void TestInterprete() {
-        String context = "a+b-c";
-         Expression expression = new Expression(context);
-         System.out.println("表达式：" + context);
-         System.out.println("结果：" + expression.interpret(context));
+        NumberExpression numberExpression1 = new NumberExpression(10);
+        NumberExpression numberExpression2 = new NumberExpression(20);
+        AddExpression addExpression = new AddExpression(numberExpression1, numberExpression2);
+        int result = addExpression.interpret("10+20");
+        System.out.println("10+20 = "+ result);
+        SubstractExpression substractExpression = new SubstractExpression(numberExpression1, numberExpression2);
+        result = substractExpression.interpret("10-20");
+        System.out.println("10-20 = "+ result);
+
 
     }
 
